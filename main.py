@@ -24,8 +24,5 @@ print(c1)
 
 
 #Задание №3
-print('Hello world!', sep='')
-=======
-
- 
->>>>>>> origin/first
+h = 'Hello world!'
+print(h, sep="\n")
