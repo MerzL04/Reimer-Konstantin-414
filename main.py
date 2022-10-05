@@ -19,10 +19,20 @@ b = 'ivan@lenta.ru'
 print(b [0:4])
 
 c = '7(495) 234-56-78'
-c1 = c.replace("-","")
-print(c1)
+c = c.replace('-',"")
+c = c.replace(')',"")
+c = c.replace('(',"")
+c = c.replace(' ',"")
+print(c)
 
 
 #Задание №3
 h = 'Hello world!'
-print(h, sep="\n")
+print(h[0:5])
+print(h[6:12])
+
+
+l = 'qwerty454ytrewq'
+n = l[::-1]
+if l == n:
+    print('yes')
