@@ -61,7 +61,7 @@ need = int(input())
 summ = 0
 arifm = 0
 kol = 0
-for i in range(need):
+for i in range(1, need):
     if i%2==0 or i%5==0:
         summ+=i
         kol+=1
